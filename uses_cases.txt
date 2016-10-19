@@ -1,0 +1,22 @@
+Administrator : 
+
+Log in
+Log out
+See the description of product
+Add new product
+Remove product 
+Waste product
+Update product
+Search product
+
+
+
+Customer :
+
+Log in
+Log out
+Buy product
+See the description of product
+Add product (basket)
+Remove product (basket)
+Search product
