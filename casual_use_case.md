@@ -29,7 +29,7 @@ User must have an account in the system before starting this use case.
 
 The user logs onto the system and may search products they want. The user searches by name, price, category, origin. The system will search a correspondence with the criteria previously entered.
 If the system finds at least one correspondence, the system will display the products found.
-If no elements fit the search, the system displays an appropriate message to warn the user. If the user entered bad characters in the search bar, an appropriate error message will be displayed. 
+If no elements fit the search, the system displays an appropriate message to warn the user. If the user entered bad characters in the search bar, an appropriate error message will be displayed.
 
 
 The search must not exceed 10 seconds, beyond this time, an appropriate error message will be displayed to warn the user.
