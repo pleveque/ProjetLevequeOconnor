@@ -21,7 +21,7 @@ The system searchs to find if there is a good login and password, it must not ex
 
 
 
-**2. Use case number 4 : Search product (admin, customer)**
+**2. Use case number 3 : Search product (admin, customer)**
 
 
 User must have an account in the system before starting this use case.
