@@ -34,7 +34,15 @@ Admin and Customer
 </ul>
 
 **Main Success Scenario:**
-User wants search a products, he uses a search method function to search their desired products. The words are correct and similar with products available, the products are displayed.
+<ol>
+User wants search a products :
+	<li>he goes in search bar</li>
+	<li>he enters correct words in search bar</li>
+	<li>he pushes the enter key or click on button "search"</li>
+	<li>system check if the words correspond to a product</li>
+	<li>system finds product(s) </li>
+	<li>return all products corresponding to the research</li>
+</ol>
 
 
 **Extensions:**
