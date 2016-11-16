@@ -32,8 +32,8 @@ Accountant: Wants a record of each transaction that occurs
 	<li>Products stock level must be altered</li>
 </ul>
 
-**Main Success Scenario:**
-User wants to Check Out with products:
+**Main Success Scenario:**</br>
+User wants to Check Out with products: 
 <ul>
 	<li>User selects to check out</li>
 	<li>User confirms that the products shown are the product they wish to purchase</li>
