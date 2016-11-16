@@ -34,7 +34,17 @@ Accountant: Wants a record of each transaction that occurs
 
 **Main Success Scenario:**
 User has used the ‘Check Out’ function to purchase all the items in their basket. The transaction has been completed without error and all parties are happy
-
+User wants to Check Out with products:
+<ul>
+	<li>User selects to check out</li>
+	<li>User confirms that the products shown are the product they wish to purchase</li>
+	<li>User selects to pay for products</li>
+	<li>User selects type of payment</li>
+	<li>User enters payment details</li>
+	<li>User waits for payment details to be confirmed</li>
+	<li>User is shown the total amount to be paid</li>
+	<li>User completes transaction and pays for all the products</li>
+</ul>
 
 **Extensions:**
 <ul>
