@@ -33,7 +33,6 @@ Accountant: Wants a record of each transaction that occurs
 </ul>
 
 **Main Success Scenario:**
-User has used the ‘Check Out’ function to purchase all the items in their basket. The transaction has been completed without error and all parties are happy
 User wants to Check Out with products:
 <ul>
 	<li>User selects to check out</li>
