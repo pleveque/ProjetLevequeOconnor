@@ -3,17 +3,18 @@
  */
 public class Product {
 
-    private String serialNumber /*protected ?*/, name, description, origin;
-    private double percentageAlcohol, price, quantity; //by Liter
+    private String serialNumber, description;
+    private double percentageAlcohol, price; //by Liter
+    private String typeAlcohol;
+    private ProductSpec productSpec;
 
-    public Product(String serialNumber, String name, String description, String origin, double percentageAlcohol, double price, double quantity) {
+    public Product(String serialNumber, String description, double percentageAlcohol, double price, String typeAlcohol, ProductSpec productSpec) {
         this.serialNumber = serialNumber;
-        this.name = name;
         this.description = description;
-        this.origin = origin;
         this.percentageAlcohol = percentageAlcohol;
         this.price = price;
-        this.quantity = quantity;
+        this.typeAlcohol = typeAlcohol;
+        this.productSpec = productSpec;
     }
 
     public String getSerialNumber() {
@@ -24,28 +25,12 @@ public class Product {
         this.serialNumber = serialNumber;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public String getDescription() {
         return description;
     }
 
     public void setDescription(String description) {
         this.description = description;
-    }
-
-    public String getOrigin() {
-        return origin;
-    }
-
-    public void setOrigin(String origin) {
-        this.origin = origin;
     }
 
     public double getPercentageAlcohol() {
@@ -64,23 +49,27 @@ public class Product {
         this.price = price;
     }
 
-    public double getQuantity() {
-        return quantity;
+    public String getTypeAlcohol() {
+        return typeAlcohol;
     }
 
-    public void setQuantity(double quantity) {
-        this.quantity = quantity;
+    public void setTypeAlcohol(String typeAlcohol) {
+        this.typeAlcohol = typeAlcohol;
     }
 
+    public ProductSpec getProductSpec() {
+        return productSpec;
+    }
+
+    @Override
     public String toString() {
         return "Product{" +
                 "serialNumber='" + serialNumber + '\'' +
-                ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
-                ", origin='" + origin + '\'' +
                 ", percentageAlcohol=" + percentageAlcohol +
                 ", price=" + price +
-                ", quantity=" + quantity +
+                ", typeAlcohol='" + typeAlcohol + '\'' +
+                ", productSpec=" + productSpec +
                 '}';
     }
 }

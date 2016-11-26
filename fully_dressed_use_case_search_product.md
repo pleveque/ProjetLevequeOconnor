@@ -33,7 +33,7 @@ Admin and Customer
 	<li>Display all products which correspond to the search</li>
 </ul>
 
-**Main Success Scenario:**
+**FindProductTest Success Scenario:**
 <ol>
 User wants search a products :
 	<li>he goes in search bar</li>

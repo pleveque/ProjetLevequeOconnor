@@ -32,7 +32,7 @@ Accountant: Wants a record of each transaction that occurs
 	<li>Products stock level must be altered</li>
 </ul>
 
-**Main Success Scenario:**</br>
+**FindProductTest Success Scenario:**</br>
 User wants to Check Out with products: 
 <ul>
 	<li>User selects to check out</li>
