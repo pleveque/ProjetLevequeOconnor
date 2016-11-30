@@ -11,7 +11,11 @@ public class ProductSpec {
 
     public ProductSpec(Map mapSpec) {
 
-        this.mapSpec = new HashMap();
+        if (mapSpec == null) {
+            this.mapSpec = new HashMap();
+        } else {
+            this.mapSpec = new HashMap(mapSpec);
+        }
     }
 
     public Object getMapSpec(String spec){

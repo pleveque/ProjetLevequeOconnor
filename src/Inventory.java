@@ -19,7 +19,7 @@ public class Inventory {
     public void addProduct(String serialNumber, String description, double percentageAlcohol, double price, String typeAlcohol, ProductSpec productSpec){
         Product product = new Product(serialNumber, description, percentageAlcohol, price, typeAlcohol, productSpec);
         products.add(product);
-        System.out.println("Product added : ");
+        System.out.println("Product added : " + product.getSerialNumber());
     }
 
     public Product getProduct(String serialNumber){

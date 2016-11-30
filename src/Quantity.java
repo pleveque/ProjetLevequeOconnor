@@ -15,15 +15,15 @@ public enum Quantity {
     public String toString() {
         switch (this) {
             case SMALL:
-                return "0.33";
+                return "0.33 L";
             case MEDIUM:
-                return "0.75";
+                return "0.75 L";
             case LITER:
-                return "1.0";
+                return "1.0 L";
             case LARGE:
-                return "1.5";
+                return "1.5 L";
             case LARGEST:
-                return "2.0";
+                return "2.0 L";
             default:
                 return "unspecified";
         }

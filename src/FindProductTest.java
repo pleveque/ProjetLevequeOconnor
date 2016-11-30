@@ -14,8 +14,9 @@ public class FindProductTest {
         initializeInventory(inventory);
 
         Map productSpec = new HashMap();
-        productSpec.put("name", Name.GUINNESS);
-        productSpec.put("origin", Origin.IRELAND);
+        productSpec.put("name", Name.VODKA);
+        productSpec.put("origin", Origin.RUSSIA);
+        //productSpec.put("quantity", Quantity.SMALL);
         ProductSpec search = new ProductSpec(productSpec);
 
         List searchFound = inventory.searchProduct(search);
@@ -29,27 +30,26 @@ public class FindProductTest {
                 Product product = (Product)i.next();
                 ProductSpec spec = product.getProductSpec();
 
-                System.out.println("We have a " + spec.getMapSpec("productType") +
-                        " with the following productSpec:");
+                System.out.println("We have a " +
+                        spec.getMapSpec("productType") +
+                        " with the following specificities:");
 
-                for (Iterator j = spec.getMapSpecs().keySet().iterator();
-                     j.hasNext(); ) {
+                for (Iterator j = spec.getMapSpecs().keySet().iterator(); j.hasNext();) {
 
                     String propertyName = (String)j.next();
 
                     if (propertyName.equals("productType"))
-                        continue;
+                        //continue;
                     System.out.println("    " + propertyName + ": " +
                             spec.getMapSpec(propertyName));
                 }
                 System.out.println("  You can have this " +
-                        spec.getMapSpec("productType") + " for $" +
+                        spec.getMapSpec("productType") + " for €" +
                         product.getPrice() + "\n---");
             }
         } else {
             System.out.println("Sorry, we have nothing for you.");
         }
-
     }
 
     private static void initializeInventory(Inventory inventory){
