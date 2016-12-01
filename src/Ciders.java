@@ -1,10 +1,8 @@
 /**
  * Created by Jerome on 17-Nov-16.
  */
-public class Ciders {
-    private String UPC, name, percentage, origin, size;
-    private double price;
-    private int quantity;
+public class Ciders extends Alcohol{
+    private String origin;
 
     public Ciders (){
         UPC = "000000";

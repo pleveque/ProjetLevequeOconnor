@@ -1,10 +1,8 @@
 /**
  * Created by Jerome on 17-Nov-16.
  */
-public class Wines {
-    private String UPC, name, year, percentage, origin, type, size;
-    private double price;
-    private int quantity;
+public class Wines extends Alcohol{
+    private String year, origin, type;
 
     public Wines (){
         UPC = "000000";

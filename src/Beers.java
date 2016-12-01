@@ -1,10 +1,9 @@
 /**
  * Created by Jerome on 17-Nov-16.
  */
-public class Beers {
-    private String UPC, name, percentage, origin, type, size;
-    private double price;
-    private int quantity;
+public class Beers extends Alcohol{
+    private String origin, type;
+
 
     public Beers (){
         UPC = "000000";

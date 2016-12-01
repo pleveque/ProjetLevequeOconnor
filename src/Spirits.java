@@ -1,10 +1,8 @@
 /**
  * Created by Jerome on 17-Nov-16.
  */
-public class Spirits {
-    private String UPC, name, percentage, type, size;
-    private double price;
-    private int quantity;
+public class Spirits extends Alcohol{
+    private String type;
 
     public Spirits (){
         UPC = "000000";
