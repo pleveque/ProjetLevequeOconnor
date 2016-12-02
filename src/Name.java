@@ -1,5 +1,7 @@
 /**
  * Created by Pierre on 26/11/2016.
+ * This class represent all name for all type of product. You can retrieve names for beer, wine, cider an spirit.
+ * The name is a brand of product
  */
 public enum Name {
 

@@ -1,5 +1,6 @@
 /**
  * Created by Pierre on 26/11/2016.
+ * This class represent all countries where can come from a product.
  */
 public enum Origin {
 
@@ -21,7 +22,8 @@ public enum Origin {
     POLAND,
     UKRAINE,
     CZECH_REPUBLIC,
-    DENMARK;
+    DENMARK,
+    BELGIUM;
 
 
     private Origin(){}
@@ -47,6 +49,7 @@ public enum Origin {
             case UKRAINE: return "Ukraine";
             case CZECH_REPUBLIC: return "Czech Republic";
             case DENMARK: return "Denmark";
+            case BELGIUM: return "Belgium";
             default : return "unspecified";
         }
     }

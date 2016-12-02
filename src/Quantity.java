@@ -1,8 +1,8 @@
 /**
  * Created by Pierre on 26/11/2016.
+ * This class represent the possible quantity for a product. The quantity is in liter
  */
 public enum Quantity {
-/*Quantity is by liter*/
 
     SMALL  /*(0.33)*/,
     MEDIUM  /*(0.75)*/,

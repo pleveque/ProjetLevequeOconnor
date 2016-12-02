@@ -1,5 +1,6 @@
 /**
  * Created by Pierre on 25/11/2016.
+ * This class represent all the type of product available on the application
  */
 public enum ProductType {
 

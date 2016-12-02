@@ -1,10 +1,11 @@
 /**
  * Created by Pierre on 19/11/2016.
+ * This class represent the characteristics for a product.
  */
 public class Product {
 
     private String serialNumber, description;
-    private double percentageAlcohol, price; //by Liter
+    private double percentageAlcohol, price;
     private String typeAlcohol;
     private ProductSpec productSpec;
 
